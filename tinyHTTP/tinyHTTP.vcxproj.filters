@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source%28%2a.c%29">
+      <UniqueIdentifier>{a3b32df6-d76c-471a-b436-dd04a382555d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source%28%2a.c%29\auth">
+      <UniqueIdentifier>{2cddacf6-2986-4810-8288-2aaf5db914a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source%28%2a.c%29\headers">
+      <UniqueIdentifier>{1155d0e3-3be8-4708-896f-e019741b2fe2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source%28%2a.c%29\parsers">
+      <UniqueIdentifier>{01683066-06f7-45d1-933b-0ad150810301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include%28%2a.h%29">
+      <UniqueIdentifier>{01dc3150-ac67-4374-bef9-00ee4069ac94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include%28%2a.h%29\auth">
+      <UniqueIdentifier>{b1bcedb4-dd02-4c5a-95a4-ee2bc224bef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include%28%2a.h%29\headers">
+      <UniqueIdentifier>{a228d8ac-2a7b-440c-a931-b9ace50fb2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include%28%2a.h%29\parsers">
+      <UniqueIdentifier>{c5b47b12-0ab4-4799-854d-3abc68ee36ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="abnf%28%2a.abnf%29">
+      <UniqueIdentifier>{4ceec47a-b2e9-4c8d-8422-0cb5900a0912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ragel%28%2a.rl%29">
+      <UniqueIdentifier>{c11ae7dd-8a64-4f8f-83b7-3ba6be1681f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resources%28%2a.rc%29">
+      <UniqueIdentifier>{f1aabed6-c157-4916-ac4c-474fc7d098b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\thttp.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thttp_action.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thttp_dialog.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thttp_event.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thttp_message.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thttp_proxy_node_plugin.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thttp_session.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\thttp_url.c">
+      <Filter>source%28%2a.c%29</Filter>
+    </ClCompile>
+    <ClCompile Include="src\auth\thttp_auth.c">
+      <Filter>source%28%2a.c%29\auth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\auth\thttp_challenge.c">
+      <Filter>source%28%2a.c%29\auth</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Authorization.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Content_Length.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Content_Type.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Dummy.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_ETag.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Sec_WebSocket_Accept.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Sec_WebSocket_Key.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Sec_WebSocket_Protocol.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Sec_WebSocket_Version.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_Transfer_Encoding.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\headers\thttp_header_WWW_Authenticate.c">
+      <Filter>source%28%2a.c%29\headers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parsers\thttp_parser_header.c">
+      <Filter>source%28%2a.c%29\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parsers\thttp_parser_message.c">
+      <Filter>source%28%2a.c%29\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parsers\thttp_parser_url.c">
+      <Filter>source%28%2a.c%29\parsers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\thttp.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\thttp_action.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\thttp_dialog.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\thttp_event.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\thttp_message.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyhttp\thttp_proxy_node_plugin.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\thttp_session.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\thttp_url.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyhttp.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyhttp_config.h">
+      <Filter>include%28%2a.h%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\auth\thttp_auth.h">
+      <Filter>include%28%2a.h%29\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\auth\thttp_challenge.h">
+      <Filter>include%28%2a.h%29\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header_Authorization.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header_Content_Length.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header_Content_Type.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header_Dummy.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header_ETag.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyhttp\headers\thttp_header_Sec_WebSocket_Accept.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyhttp\headers\thttp_header_Sec_WebSocket_Key.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyhttp\headers\thttp_header_Sec_WebSocket_Protocol.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyhttp\headers\thttp_header_Sec_WebSocket_Version.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header_Transfer_Encoding.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\headers\thttp_header_WWW_Authenticate.h">
+      <Filter>include%28%2a.h%29\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\parsers\thttp_parser_header.h">
+      <Filter>include%28%2a.h%29\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\parsers\thttp_parser_message.h">
+      <Filter>include%28%2a.h%29\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="include\tinyHTTP\parsers\thttp_parser_url.h">
+      <Filter>include%28%2a.h%29\parsers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="abnf\http.abnf">
+      <Filter>abnf%28%2a.abnf%29</Filter>
+    </None>
+    <None Include="abnf\httpauth.abnf">
+      <Filter>abnf%28%2a.abnf%29</Filter>
+    </None>
+    <None Include="abnf\uri.abnf">
+      <Filter>abnf%28%2a.abnf%29</Filter>
+    </None>
+    <None Include="abnf\ws.abnf">
+      <Filter>abnf%28%2a.abnf%29</Filter>
+    </None>
+    <None Include="ragel\thttp_machine_header.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_machine_message.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_machine_utils.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_machine_ws.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Authorization.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Content_Length.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Content_Type.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Dummy.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_ETag.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Sec_WebSocket_Accept.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Sec_WebSocket_Key.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Sec_WebSocket_Protocol.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Sec_WebSocket_Version.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_Transfer_Encoding.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_header_WWW_Authenticate.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_message.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+    <None Include="ragel\thttp_parser_url.rl">
+      <Filter>ragel%28%2a.rl%29</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="version.rc">
+      <Filter>resources%28%2a.rc%29</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
